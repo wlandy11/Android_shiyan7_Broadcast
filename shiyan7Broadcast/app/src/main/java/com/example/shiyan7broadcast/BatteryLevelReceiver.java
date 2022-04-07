@@ -22,7 +22,7 @@ public class BatteryLevelReceiver extends BroadcastReceiver {
         if(batteryPct>0.2){
             Log.d("BatteryLevelReceiver","电量充足" );
         }
-        Log.i("BatteryLevelReceiver","电量："+batteryPct);
+        Log.d("BatteryLevelReceiver","电量："+batteryPct);
 
     }
 
